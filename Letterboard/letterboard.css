@@ -9,24 +9,28 @@
 .lb-head {
   color: yellow;
   font-size: 50pt;
+  text-shadow: 5px 5px rgba(25,25,25,0.5)
 }
 .lb-body {
   color: white;
   font-size: 25pt;
+  text-shadow: 3px 3px rgba(25,25,25,0.5)
 }
-div .rotright {
-  transform: rotate(4deg);
-  -ms-transform: rotate(4deg);
-  /* IE 9 */
-  -moz-transform: rotate(4deg);
-  /* Firefox */
-  -webkit-transform: rotate(4deg);
-  /* Safari and Chrome */
-  -o-transform: rotate(4deg);
-  /* Opera */
+div .rot {
   display: inline-block;
 }
-div .rotleft {
+div .l5 {
+  transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  /* IE 9 */
+  -moz-transform: rotate(-5deg);
+  /* Firefox */
+  -webkit-transform: rotate(-5deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-5deg);
+  /* Opera */
+}
+div .l4 {
   transform: rotate(-4deg);
   -ms-transform: rotate(-4deg);
   /* IE 9 */
@@ -36,5 +40,92 @@ div .rotleft {
   /* Safari and Chrome */
   -o-transform: rotate(-4deg);
   /* Opera */
-  display: inline-block;
+}
+div .l3 {
+  transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  /* IE 9 */
+  -moz-transform: rotate(-3deg);
+  /* Firefox */
+  -webkit-transform: rotate(-3deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-3deg);
+  /* Opera */
+}
+div .l2 {
+  transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  /* IE 9 */
+  -moz-transform: rotate(-2deg);
+  /* Firefox */
+  -webkit-transform: rotate(-2deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-2deg);
+  /* Opera */
+}
+div .l1 {
+  transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  /* IE 9 */
+  -moz-transform: rotate(-1deg);
+  /* Firefox */
+  -webkit-transform: rotate(-1deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-1deg);
+  /* Opera */
+}
+div .r5 {
+  transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  /* IE 9 */
+  -moz-transform: rotate(5deg);
+  /* Firefox */
+  -webkit-transform: rotate(5deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(5deg);
+  /* Opera */
+}
+div .r4 {
+  transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  /* IE 9 */
+  -moz-transform: rotate(4deg);
+  /* Firefox */
+  -webkit-transform: rotate(4deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(4deg);
+  /* Opera */
+}
+div .r3 {
+  transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  /* IE 9 */
+  -moz-transform: rotate(3deg);
+  /* Firefox */
+  -webkit-transform: rotate(3deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(3deg);
+  /* Opera */
+}
+div .r2 {
+  transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  /* IE 9 */
+  -moz-transform: rotate(2deg);
+  /* Firefox */
+  -webkit-transform: rotate(2deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(2deg);
+  /* Opera */
+}
+div .r1 {
+  transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  /* IE 9 */
+  -moz-transform: rotate(1deg);
+  /* Firefox */
+  -webkit-transform: rotate(1deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(1deg);
+  /* Opera */
 }
