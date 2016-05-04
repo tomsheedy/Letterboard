@@ -1,0 +1,40 @@
+.letterboard {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 50px;
+  border: 1px black solid;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAJUlEQVQYV2NkYGD4z8DAwGBkZASiMAAjQQVGRkZgE3ABxqGgAAAq6Qyx+VcEhwAAAABJRU5ErkJggg==) repeat;
+}
+.lb-head {
+  color: yellow;
+  font-size: 50pt;
+}
+.lb-body {
+  color: white;
+  font-size: 25pt;
+}
+div .rotright {
+  transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  /* IE 9 */
+  -moz-transform: rotate(4deg);
+  /* Firefox */
+  -webkit-transform: rotate(4deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(4deg);
+  /* Opera */
+  display: inline-block;
+}
+div .rotleft {
+  transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  /* IE 9 */
+  -moz-transform: rotate(-4deg);
+  /* Firefox */
+  -webkit-transform: rotate(-4deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(-4deg);
+  /* Opera */
+  display: inline-block;
+}
