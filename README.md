@@ -1,4 +1,4 @@
-![alt text](https://github.com/tomsheedy/Letterboard/blob/master/letterboard.png "Letterboard")
+![alt text](https://github.com/tomsheedy/Letterboard/blob/master/letterboard-v1-1.png "Letterboard")
 
 ##Installation
 Simply download the zip and extract the files in to your web project.
